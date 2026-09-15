@@ -1,8 +1,8 @@
-FastAPI Task Management System 🚀
+#FastAPI Task Management System 🚀
 
-A backend Task Management System built with FastAPI. It provides user registration, authentication, email notifications, and task management through REST APIs.
+A backend **Task Management System** built with FastAPI. It provides user registration, authentication, email notifications, and task management through REST APIs.
 
-✨ Features
+##✨ Features
 
 - 👤 User Registration & Login
 - 🔐 JWT-based Authentication
@@ -12,7 +12,7 @@ A backend Task Management System built with FastAPI. It provides user registrati
 - 🧪 API Testing with Postman
 - 📚 Interactive Swagger UI
 
-🛠️ Technologies
+##🛠️ Technologies
 
 - Python
 - FastAPI
@@ -23,7 +23,7 @@ A backend Task Management System built with FastAPI. It provides user registrati
 - FastAPI-Mail
 - Uvicorn
 
-📂 Project Structure
+##📂 Project Structure
 
 ├── user/
 ├── task/
@@ -33,7 +33,7 @@ A backend Task Management System built with FastAPI. It provides user registrati
 ├── .gitignore
 └── README.md
 
-🔐 Authentication
+##🔐 Authentication
 
 The project uses JWT authentication to protect task-related endpoints.
 
@@ -41,11 +41,11 @@ Users can register and log in to receive an access token, which is then used to 
 
 Register → Email → Login → JWT Token → Task Management
 
-📧 Email
+##📧 Email
 
 After registration, an email is sent to the user's registered email address using FastAPI-Mail.
 
-📚 API Testing
+##📚 API Testing
 
 The API can be tested using Postman or FastAPI's built-in Swagger UI.
 
@@ -53,7 +53,7 @@ After running the project, open:
 
 http://127.0.0.1:8000/docs
 
-⚙️ Installation
+##⚙️ Installation
 
 git clone <https://github.com/Safwan-Cyber123/task-management-api>
 cd task-management-api
@@ -63,9 +63,7 @@ uvicorn main:app --reload
 Create a ".env" file for your database, JWT, and email configuration.
 
 
-👨‍💻 Author
+##👨‍💻 Author
 Muhammad Safwan
-
-Safwan Hanif
 
 BS CSIT Student | Backend Development & Cyber Security Enthusiast
